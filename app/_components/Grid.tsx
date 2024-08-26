@@ -5,7 +5,7 @@ import React from "react";
 const Grid = () => {
   return (
     <section id="about">
-      <BentoGrid>
+      <BentoGrid className="w-full py-20">
         {gridItems.map((item) => (
           <BentoGridItem
             id={item.id}
