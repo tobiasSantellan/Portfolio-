@@ -16,15 +16,15 @@ const Projects = () => {
             key={item.id}
             className="sm:h-[41rem] lg:min-h-[32.5rem] h-[32rem] flex items-center justify-center sm:w-[570px] w-[80vw] "
           >
-            <PinContainer title={item.link} href={item.link}>
-              <div className="relative flex items-center justify-center sm:w-[570px] sm:h-[40vh] w-[80vw] overflow-hidden h-[30vh]  mb-10">
-                <div className="relative w-full h-full overflow-hidden lg:rounded-3xl">
+            <PinContainer title={item.href} href={item.href}>
+              <div className="relative flex items-center justify-center sm:w-[570px] sm:h-[40vh] w-[80vw] overflow-hidden h-[20vh]  mb-10">
+                {/* <div className="relative w-full h-full overflow-hidden lg:rounded-3xl">
                   <img src="/bg.png" alt="bg-img" />
-                </div>
+                </div> */}
                 <img
                   src={item.img}
                   alt={item.title}
-                  className="z-10 absolute bottom-0"
+                  className="z-10 absolute bottom-0 rounded-md"
                 />
               </div>
               <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">
@@ -48,9 +48,13 @@ const Projects = () => {
                   ))}
                 </div>
                 <div className="flex justify-center items-center">
-                  <p className="flex lg:text-xl md:text-xs text-sm text-white-200">
+                  <a
+                    href={item.link}
+                    target="_blank"
+                    className="flex lg:text-xl md:text-xs text-sm text-white-200"
+                  >
                     Live Demo
-                  </p>
+                  </a>
                   <FaLocationArrow className="ms-3" color="#53bdac" />
                 </div>
               </div>
