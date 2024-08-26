@@ -1,12 +1,12 @@
 import MagicButton from "@/components/ui/MagicButton";
 import { Spotlight } from "@/components/ui/SpotLight";
 import { TextGenerateEffect } from "@/components/ui/TextGenerateEffect";
-import { Github } from "lucide";
 import { SocialIcon } from "react-social-icons";
+import { PiReadCvLogo } from "react-icons/pi";
 
 const Hero = () => {
   return (
-    <div className="pb-20 pt-36">
+    <div className="pb-20 pt-36" id="home">
       <div>
         <Spotlight
           className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen"
@@ -33,11 +33,16 @@ const Hero = () => {
 
           <TextGenerateEffect
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
-            words="Frontend Developer Creating Intuitive User Interfaces"
+            words="Frontend Developer Transforming ideas into Digital Experiences"
           />
 
           <a href="#" target="_blank">
-            <MagicButton />
+            <MagicButton
+              title="Download CV"
+              icon={<PiReadCvLogo />}
+              position="right"
+              otherClasses="gap-3"
+            />
           </a>
           {/* Añadir los iconos de redes sociales */}
           <div className="flex gap-4 mt-6">
