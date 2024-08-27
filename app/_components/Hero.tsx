@@ -47,7 +47,7 @@ const Hero = () => {
           {/* Añadir los iconos de redes sociales */}
           <div className="flex gap-4 mt-6">
             <SocialIcon
-              url="https://github.com/tu-usuario-github"
+              url="https://github.com/tobiasSantellan"
               network="github"
               target="_blank"
               style={{ height: 35, width: 35 }}
@@ -56,7 +56,7 @@ const Hero = () => {
               className="hover:opacity-80 transition-opacity"
             />
             <SocialIcon
-              url="https://linkedin.com/in/tu-perfil-linkedin"
+              url="https://linkedin.com/in/tobias-s98/"
               network="linkedin"
               target="_blank"
               style={{ height: 35, width: 35 }}
