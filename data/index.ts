@@ -140,9 +140,11 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/tobiasSantellan",
   },
   {
     id: 2,
     img: "/link.svg",
+    link: "https://linkedin.com/in/tobias-s98/",
   },
 ];
