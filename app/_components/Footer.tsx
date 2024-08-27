@@ -22,15 +22,15 @@ const Footer = () => {
 
       <div className="flex flex-col items-center">
         <h1 className="heading lg:max-w-[45vw]">
-          I&apos;m <span className="text-green">available</span>. Do{" "}
-          <span className="text-green">you</span> want to work together?
+          Let's work
+          <span className="text-green"> together</span>
         </h1>
         <p className="text-white-200 md:mt-10 my-5 text-center">
           Reach me out today
         </p>
 
         <MagicButton
-          title={copied ? "Email Copied" : "Let's get in touch"}
+          title={copied ? "Email Copied" : "Get in touch"}
           icon={<FaLocationArrow />}
           position="right"
           otherClasses="gap-3"
