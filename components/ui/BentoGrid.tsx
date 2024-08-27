@@ -115,7 +115,7 @@ export const BentoGridItem = ({
               {["React.js", "Next.js", "JavaScript"].map((item) => (
                 <span
                   key={item}
-                  className="py-2 lg:py-3 lg:mt-[-3px] lg:px-3 px-3 text-xs lg:text-base opacity-50 lg:opacity-60 rounded-lg text-center bg-[#00a98f]"
+                  className="py-2 lg:py-3 lg:mt-[-3px] lg:px-3 px-3 text-xs lg:text-base opacity-70 lg:opacity-80 rounded-lg text-center bg-[#00a98f]"
                 >
                   {item}
                 </span>
@@ -127,7 +127,7 @@ export const BentoGridItem = ({
               {["Tailwind", "Material Ui", "Git"].map((item) => (
                 <span
                   key={item}
-                  className="py-2 lg:py-3 lg:mt-[-3px] lg:px-3 px-3 text-xs lg:text-base opacity-50 lg:opacity-60 rounded-lg text-center bg-[#00a98f]"
+                  className="py-2 lg:py-3 lg:mt-[-3px] lg:px-3 px-3 text-xs lg:text-base opacity-70 lg:opacity-80 rounded-lg text-center bg-[#00a98f]"
                 >
                   {item}
                 </span>
