@@ -76,7 +76,7 @@ export const projects = [
     des: "Designed to simplify personal financial management. Developed with cutting-edge technologies",
     img: "/hero.png",
     iconLists: [
-      "/next-js.svg",
+      "/nextjs.png",
       "/javascript.svg",
       "/tail.svg",
       "/c.svg",
@@ -92,7 +92,7 @@ export const projects = [
     des: "Innovative web application that simulates job interviews using artificial intelligence.",
     img: "/id2.png",
     iconLists: [
-      "/next-js.svg",
+      "/nextjs.png",
       "/javascript.svg",
       "/tail.svg",
       "/gemini.svg",
@@ -125,7 +125,7 @@ export const projects = [
     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
     img: "/p4.svg",
     iconLists: [
-      "/next-js.svg",
+      "/nextjs.png",
       "/tail.svg",
       "/ts.svg",
       "/three.svg",
