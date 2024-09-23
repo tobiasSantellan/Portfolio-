@@ -72,18 +72,17 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "Money Manager - Budget tracker",
-    des: "Designed to simplify personal financial management. Developed with cutting-edge technologies",
-    img: "/hero.png",
+    title: "Web E-Commerce",
+    des: "Developed using cutting-edge web technologies, this online store is designed to maximize usability and accessibility, allowing users to explore products and make purchases quickly and safely.",
+    img: "/p5.png",
     iconLists: [
       "/nextjs.png",
       "/javascript.svg",
       "/tail.svg",
-      "/c.svg",
-      "/neon.svg",
+      "/sanity.svg",
       "/gitt.svg",
     ],
-    link: "https://money-manager-jade.vercel.app/",
+    link: "https://web-e-commerce-seven.vercel.app/",
     href: "Visit",
   },
   {
@@ -105,6 +104,22 @@ export const projects = [
   },
   {
     id: 3,
+    title: "Money Manager - Budget tracker",
+    des: "Designed to simplify personal financial management. Developed with cutting-edge technologies",
+    img: "/hero.png",
+    iconLists: [
+      "/nextjs.png",
+      "/javascript.svg",
+      "/tail.svg",
+      "/c.svg",
+      "/neon.svg",
+      "/gitt.svg",
+    ],
+    link: "https://money-manager-jade.vercel.app/",
+    href: "Visit",
+  },
+  {
+    id: 4,
     title: "Travel Planner with AI",
     des: "Web application that facilitates travel planning by using artificial intelligence",
     img: "/id3.png",
@@ -117,21 +132,6 @@ export const projects = [
       "/gitt.svg",
     ],
     link: "https://travel-planner-ai-app.vercel.app/",
-    href: "Visit",
-  },
-  {
-    id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: [
-      "/nextjs.png",
-      "/tail.svg",
-      "/ts.svg",
-      "/three.svg",
-      "/gitt.svg",
-    ],
-    link: "/ui.apple.com",
     href: "Visit",
   },
 ];
