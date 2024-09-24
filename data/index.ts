@@ -72,7 +72,7 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "Web E-Commerce",
+    title: "Cyclezz E-Commerce",
     des: "Developed using cutting-edge web technologies, this online store is designed to maximize usability and accessibility, allowing users to explore products and make purchases quickly and safely.",
     img: "/p5.png",
     iconLists: [
@@ -80,6 +80,7 @@ export const projects = [
       "/javascript.svg",
       "/tail.svg",
       "/sanity.svg",
+      "/stripe.svg",
       "/gitt.svg",
     ],
     link: "https://web-e-commerce-seven.vercel.app/",
