@@ -36,7 +36,7 @@ const Hero = () => {
             words="Frontend Developer Transforming ideas into Digital Experiences"
           />
 
-          <a href="#" target="_blank">
+          <a href="TobiasSantellan_Resume.pdf" target="_blank">
             <MagicButton
               title="Download CV"
               icon={<PiReadCvLogo />}
